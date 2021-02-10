@@ -1,0 +1,11 @@
+framework module ZyncSDK {
+  umbrella header "ZyncSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ZyncSDK.Swift {
+    header "ZyncSDK-Swift.h"
+    requires objc
+}
