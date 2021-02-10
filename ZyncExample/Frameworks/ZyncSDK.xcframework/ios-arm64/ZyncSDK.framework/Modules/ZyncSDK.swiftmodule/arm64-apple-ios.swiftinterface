@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ZyncSDK
+import AVFoundation
+import AVKit
+import Foundation
+import Lottie
+import SDWebImage
+import Swift
+import UIKit
+@_exported import ZyncSDK
+extension UIViewController {
+  public static func instance() -> Self
+}
+final public class Zync {
+  public init()
+  final public func createZyncPlayer(nonDrmUrl: Foundation.URL) -> UIKit.UIViewController
+  final public func createZyncPlayer(fairplayUrl: Foundation.URL, licenseUrl: Foundation.URL? = nil, certificateUrl: Foundation.URL? = nil) -> UIKit.UIViewController
+  final public func launchBrowse() -> UIKit.UIViewController
+  @objc deinit
+}
+extension URLRequest {
+  public func cURL(pretty: Swift.Bool = false) -> Swift.String
+}

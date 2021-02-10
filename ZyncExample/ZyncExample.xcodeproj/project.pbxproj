@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2E7978B512BF2668620C6D /* Pods_ZyncExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EE39939C05E3F07A8DEF2 /* Pods_ZyncExample.framework */; };
+		555DC85248DF80712189757F /* Pods_ZyncExample_ZyncExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8497428CE1ADE2043C79176 /* Pods_ZyncExample_ZyncExampleUITests.framework */; };
+		8B96B238664FA145CE00201C /* Pods_ZyncExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A9EA0A48C74D3F6557960B /* Pods_ZyncExampleTests.framework */; };
+		B176275E25D34CC400E98570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B176275D25D34CC400E98570 /* AppDelegate.swift */; };
+		B176276025D34CC400E98570 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B176275F25D34CC400E98570 /* SceneDelegate.swift */; };
+		B176276225D34CC400E98570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B176276125D34CC400E98570 /* ViewController.swift */; };
+		B176276525D34CC400E98570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B176276325D34CC400E98570 /* Main.storyboard */; };
+		B176276725D34CC500E98570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B176276625D34CC500E98570 /* Assets.xcassets */; };
+		B176276A25D34CC500E98570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B176276825D34CC500E98570 /* LaunchScreen.storyboard */; };
+		B176277525D34CC500E98570 /* ZyncExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B176277425D34CC500E98570 /* ZyncExampleTests.swift */; };
+		B176278025D34CC500E98570 /* ZyncExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B176277F25D34CC500E98570 /* ZyncExampleUITests.swift */; };
+		B176279E25D34E7D00E98570 /* ZyncSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B176279925D34E3D00E98570 /* ZyncSDK.xcframework */; };
+		B176279F25D34E7D00E98570 /* ZyncSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B176279925D34E3D00E98570 /* ZyncSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B176277125D34CC500E98570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B176275225D34CC400E98570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B176275925D34CC400E98570;
+			remoteInfo = ZyncExample;
+		};
+		B176277C25D34CC500E98570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B176275225D34CC400E98570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B176275925D34CC400E98570;
+			remoteInfo = ZyncExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B17627A025D34E7D00E98570 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B176279F25D34E7D00E98570 /* ZyncSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02EB9EAA489B80BBE1083962 /* Pods-ZyncExample-ZyncExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZyncExample-ZyncExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-ZyncExample-ZyncExampleUITests/Pods-ZyncExample-ZyncExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		18A9EA0A48C74D3F6557960B /* Pods_ZyncExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZyncExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FF9438B8957D6A13F9CE25 /* Pods-ZyncExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZyncExample.release.xcconfig"; path = "Target Support Files/Pods-ZyncExample/Pods-ZyncExample.release.xcconfig"; sourceTree = "<group>"; };
+		6BE768A832A9BCE9BB9076F5 /* Pods-ZyncExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZyncExample.debug.xcconfig"; path = "Target Support Files/Pods-ZyncExample/Pods-ZyncExample.debug.xcconfig"; sourceTree = "<group>"; };
+		81B317047AA15B88B565CA4D /* Pods-ZyncExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZyncExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ZyncExampleTests/Pods-ZyncExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85517132763297B10CA8A710 /* Pods-ZyncExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZyncExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ZyncExampleTests/Pods-ZyncExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A120452420AD6F13DF2FF09E /* Pods-ZyncExample-ZyncExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZyncExample-ZyncExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZyncExample-ZyncExampleUITests/Pods-ZyncExample-ZyncExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B176275A25D34CC400E98570 /* ZyncExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZyncExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B176275D25D34CC400E98570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B176275F25D34CC400E98570 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B176276125D34CC400E98570 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B176276425D34CC400E98570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B176276625D34CC500E98570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B176276925D34CC500E98570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B176276B25D34CC500E98570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B176277025D34CC500E98570 /* ZyncExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZyncExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B176277425D34CC500E98570 /* ZyncExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZyncExampleTests.swift; sourceTree = "<group>"; };
+		B176277625D34CC500E98570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B176277B25D34CC500E98570 /* ZyncExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZyncExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B176277F25D34CC500E98570 /* ZyncExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZyncExampleUITests.swift; sourceTree = "<group>"; };
+		B176278125D34CC500E98570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B176279925D34E3D00E98570 /* ZyncSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ZyncSDK.xcframework; sourceTree = "<group>"; };
+		F8497428CE1ADE2043C79176 /* Pods_ZyncExample_ZyncExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZyncExample_ZyncExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3EE39939C05E3F07A8DEF2 /* Pods_ZyncExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZyncExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B176275725D34CC400E98570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B176279E25D34E7D00E98570 /* ZyncSDK.xcframework in Frameworks */,
+				0D2E7978B512BF2668620C6D /* Pods_ZyncExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176276D25D34CC500E98570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B96B238664FA145CE00201C /* Pods_ZyncExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176277825D34CC500E98570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555DC85248DF80712189757F /* Pods_ZyncExample_ZyncExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		703B93892A1339AB3910470B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE768A832A9BCE9BB9076F5 /* Pods-ZyncExample.debug.xcconfig */,
+				48FF9438B8957D6A13F9CE25 /* Pods-ZyncExample.release.xcconfig */,
+				A120452420AD6F13DF2FF09E /* Pods-ZyncExample-ZyncExampleUITests.debug.xcconfig */,
+				02EB9EAA489B80BBE1083962 /* Pods-ZyncExample-ZyncExampleUITests.release.xcconfig */,
+				81B317047AA15B88B565CA4D /* Pods-ZyncExampleTests.debug.xcconfig */,
+				85517132763297B10CA8A710 /* Pods-ZyncExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B176275125D34CC400E98570 = {
+			isa = PBXGroup;
+			children = (
+				B176275C25D34CC400E98570 /* ZyncExample */,
+				B176279825D34E2A00E98570 /* Frameworks */,
+				B176277325D34CC500E98570 /* ZyncExampleTests */,
+				B176277E25D34CC500E98570 /* ZyncExampleUITests */,
+				B176275B25D34CC400E98570 /* Products */,
+				703B93892A1339AB3910470B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B176275B25D34CC400E98570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B176275A25D34CC400E98570 /* ZyncExample.app */,
+				B176277025D34CC500E98570 /* ZyncExampleTests.xctest */,
+				B176277B25D34CC500E98570 /* ZyncExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B176275C25D34CC400E98570 /* ZyncExample */ = {
+			isa = PBXGroup;
+			children = (
+				B176275D25D34CC400E98570 /* AppDelegate.swift */,
+				B176275F25D34CC400E98570 /* SceneDelegate.swift */,
+				B176276125D34CC400E98570 /* ViewController.swift */,
+				B176276325D34CC400E98570 /* Main.storyboard */,
+				B176276625D34CC500E98570 /* Assets.xcassets */,
+				B176276825D34CC500E98570 /* LaunchScreen.storyboard */,
+				B176276B25D34CC500E98570 /* Info.plist */,
+			);
+			path = ZyncExample;
+			sourceTree = "<group>";
+		};
+		B176277325D34CC500E98570 /* ZyncExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B176277425D34CC500E98570 /* ZyncExampleTests.swift */,
+				B176277625D34CC500E98570 /* Info.plist */,
+			);
+			path = ZyncExampleTests;
+			sourceTree = "<group>";
+		};
+		B176277E25D34CC500E98570 /* ZyncExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B176277F25D34CC500E98570 /* ZyncExampleUITests.swift */,
+				B176278125D34CC500E98570 /* Info.plist */,
+			);
+			path = ZyncExampleUITests;
+			sourceTree = "<group>";
+		};
+		B176279825D34E2A00E98570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B176279925D34E3D00E98570 /* ZyncSDK.xcframework */,
+				FE3EE39939C05E3F07A8DEF2 /* Pods_ZyncExample.framework */,
+				F8497428CE1ADE2043C79176 /* Pods_ZyncExample_ZyncExampleUITests.framework */,
+				18A9EA0A48C74D3F6557960B /* Pods_ZyncExampleTests.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B176275925D34CC400E98570 /* ZyncExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B176278425D34CC500E98570 /* Build configuration list for PBXNativeTarget "ZyncExample" */;
+			buildPhases = (
+				6E831DC5B51B6E550F2681C6 /* [CP] Check Pods Manifest.lock */,
+				B176275625D34CC400E98570 /* Sources */,
+				B176275725D34CC400E98570 /* Frameworks */,
+				B176275825D34CC400E98570 /* Resources */,
+				B17627A025D34E7D00E98570 /* Embed Frameworks */,
+				9994647A97109865508BA491 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZyncExample;
+			productName = ZyncExample;
+			productReference = B176275A25D34CC400E98570 /* ZyncExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B176276F25D34CC500E98570 /* ZyncExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B176278725D34CC500E98570 /* Build configuration list for PBXNativeTarget "ZyncExampleTests" */;
+			buildPhases = (
+				13DF78851A27F31F0F01950F /* [CP] Check Pods Manifest.lock */,
+				B176276C25D34CC500E98570 /* Sources */,
+				B176276D25D34CC500E98570 /* Frameworks */,
+				B176276E25D34CC500E98570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B176277225D34CC500E98570 /* PBXTargetDependency */,
+			);
+			name = ZyncExampleTests;
+			productName = ZyncExampleTests;
+			productReference = B176277025D34CC500E98570 /* ZyncExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B176277A25D34CC500E98570 /* ZyncExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B176278A25D34CC500E98570 /* Build configuration list for PBXNativeTarget "ZyncExampleUITests" */;
+			buildPhases = (
+				8878C7F66CC45045B84C0006 /* [CP] Check Pods Manifest.lock */,
+				B176277725D34CC500E98570 /* Sources */,
+				B176277825D34CC500E98570 /* Frameworks */,
+				B176277925D34CC500E98570 /* Resources */,
+				9C9108D4DF05982C07BBA98B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B176277D25D34CC500E98570 /* PBXTargetDependency */,
+			);
+			name = ZyncExampleUITests;
+			productName = ZyncExampleUITests;
+			productReference = B176277B25D34CC500E98570 /* ZyncExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B176275225D34CC400E98570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B176275925D34CC400E98570 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B176276F25D34CC500E98570 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B176275925D34CC400E98570;
+					};
+					B176277A25D34CC500E98570 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B176275925D34CC400E98570;
+					};
+				};
+			};
+			buildConfigurationList = B176275525D34CC400E98570 /* Build configuration list for PBXProject "ZyncExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B176275125D34CC400E98570;
+			productRefGroup = B176275B25D34CC400E98570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B176275925D34CC400E98570 /* ZyncExample */,
+				B176276F25D34CC500E98570 /* ZyncExampleTests */,
+				B176277A25D34CC500E98570 /* ZyncExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B176275825D34CC400E98570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B176276A25D34CC500E98570 /* LaunchScreen.storyboard in Resources */,
+				B176276725D34CC500E98570 /* Assets.xcassets in Resources */,
+				B176276525D34CC400E98570 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176276E25D34CC500E98570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176277925D34CC500E98570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13DF78851A27F31F0F01950F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZyncExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E831DC5B51B6E550F2681C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZyncExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8878C7F66CC45045B84C0006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZyncExample-ZyncExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9994647A97109865508BA491 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZyncExample/Pods-ZyncExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZyncExample/Pods-ZyncExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZyncExample/Pods-ZyncExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9108D4DF05982C07BBA98B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZyncExample-ZyncExampleUITests/Pods-ZyncExample-ZyncExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZyncExample-ZyncExampleUITests/Pods-ZyncExample-ZyncExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZyncExample-ZyncExampleUITests/Pods-ZyncExample-ZyncExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B176275625D34CC400E98570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B176276225D34CC400E98570 /* ViewController.swift in Sources */,
+				B176275E25D34CC400E98570 /* AppDelegate.swift in Sources */,
+				B176276025D34CC400E98570 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176276C25D34CC500E98570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B176277525D34CC500E98570 /* ZyncExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176277725D34CC500E98570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B176278025D34CC500E98570 /* ZyncExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B176277225D34CC500E98570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B176275925D34CC400E98570 /* ZyncExample */;
+			targetProxy = B176277125D34CC500E98570 /* PBXContainerItemProxy */;
+		};
+		B176277D25D34CC500E98570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B176275925D34CC400E98570 /* ZyncExample */;
+			targetProxy = B176277C25D34CC500E98570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B176276325D34CC400E98570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B176276425D34CC400E98570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B176276825D34CC500E98570 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B176276925D34CC500E98570 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B176278225D34CC500E98570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B176278325D34CC500E98570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B176278525D34CC500E98570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE768A832A9BCE9BB9076F5 /* Pods-ZyncExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZyncExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zync.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B176278625D34CC500E98570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FF9438B8957D6A13F9CE25 /* Pods-ZyncExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZyncExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zync.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B176278825D34CC500E98570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B317047AA15B88B565CA4D /* Pods-ZyncExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q2XWJX433;
+				INFOPLIST_FILE = ZyncExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zync.ZyncExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZyncExample.app/ZyncExample";
+			};
+			name = Debug;
+		};
+		B176278925D34CC500E98570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85517132763297B10CA8A710 /* Pods-ZyncExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q2XWJX433;
+				INFOPLIST_FILE = ZyncExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zync.ZyncExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZyncExample.app/ZyncExample";
+			};
+			name = Release;
+		};
+		B176278B25D34CC500E98570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A120452420AD6F13DF2FF09E /* Pods-ZyncExample-ZyncExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q2XWJX433;
+				INFOPLIST_FILE = ZyncExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zync.ZyncExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZyncExample;
+			};
+			name = Debug;
+		};
+		B176278C25D34CC500E98570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EB9EAA489B80BBE1083962 /* Pods-ZyncExample-ZyncExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q2XWJX433;
+				INFOPLIST_FILE = ZyncExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zync.ZyncExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZyncExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B176275525D34CC400E98570 /* Build configuration list for PBXProject "ZyncExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B176278225D34CC500E98570 /* Debug */,
+				B176278325D34CC500E98570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B176278425D34CC500E98570 /* Build configuration list for PBXNativeTarget "ZyncExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B176278525D34CC500E98570 /* Debug */,
+				B176278625D34CC500E98570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B176278725D34CC500E98570 /* Build configuration list for PBXNativeTarget "ZyncExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B176278825D34CC500E98570 /* Debug */,
+				B176278925D34CC500E98570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B176278A25D34CC500E98570 /* Build configuration list for PBXNativeTarget "ZyncExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B176278B25D34CC500E98570 /* Debug */,
+				B176278C25D34CC500E98570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B176275225D34CC400E98570 /* Project object */;
+}
