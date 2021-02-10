@@ -31,8 +31,8 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-       playDrm()
-       //playNonDrm()
+        let browseViewController = Zync().launchBrowse()
+        self.navigationController?.present(browseVC, animated: false, completion: nil)
     }
     
     func playDrm() {
