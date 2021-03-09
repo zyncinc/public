@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ZyncSDK
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZyncSDK
 import AVFoundation
 import AVKit
 import Foundation
@@ -9,11 +9,17 @@ import SDWebImage
 import Swift
 import UIKit
 @_exported import ZyncSDK
+public class Stopwatch {
+  public init()
+  public func start()
+  public func pause()
+  @objc deinit
+}
 extension UIViewController {
   public static func instance() -> Self
 }
 final public class Zync {
-  public init()
+  public init(apiKey: Swift.String)
   final public func createZyncPlayer(nonDrmUrl: Foundation.URL) -> UIKit.UIViewController
   final public func createZyncPlayer(fairplayUrl: Foundation.URL, licenseUrl: Foundation.URL? = nil, certificateUrl: Foundation.URL? = nil) -> UIKit.UIViewController
   final public func launchBrowse() -> UIKit.UIViewController
