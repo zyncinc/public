@@ -1,7 +1,7 @@
 # Zync iOS SDK
 www.zync.com
 
-Video Playback SDK for no DRM and FairPlay content. Note that FairPlay content can only be played on a real device.
+Video Playback SDK for no DRM and FairPlay content. Note that FairPlay content can only be played on a real device (not via simulator).
 
 Feel free to have a look at the `Zync Example` project to see an example on how you can implement Zync into your project.
 
