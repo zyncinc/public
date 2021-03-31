@@ -1,5 +1,24 @@
 # Changelog
 
+# 0.0.5
+### Added
+* Feature:
+  - View Watchlist
+  - Subtitle/Audio Language Track Support
+* Skinning of:
+  - Browse/Categories page
+  - L2 Media List page
+
+# 0.0.4
+### Added
+* Feature:
+  - Series support
+  - Series details page + Updated UI Design
+  - Season selection
+  - Add series to watchlist
+  - Movie Player Changes (See Details/Next Episode)
+  - SDK/API Access Management   
+
 # 0.0.3
 ### Added
 * Feature:
