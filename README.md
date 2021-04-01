@@ -1,9 +1,13 @@
 # Zync iOS SDK
 www.zync.com
 
+*Looking for? [Android SDK Documentation](README_Android.md)*
+
 Video Playback SDK for no DRM and FairPlay content. Note that FairPlay content can only be played on a real device (not via simulator).
 
 Feel free to have a look at the `Zync Example` project to see an example on how you can implement Zync into your project.
+
+API Documentation can be found here: https://api.zync.com/
 
 ## Requirements
 
@@ -64,7 +68,7 @@ class ViewController: UIViewController {
 
 ## **Step 4:** Build and run
 
-Select `_Product` -> `Run_` in the menu bar.
+Select `Product` -> `Run` in the menu bar.
 
 ## API
 
@@ -82,7 +86,7 @@ The URL to the Fairplay certificate of the license server.
 
 ## createZyncPlayer
 
-Creates a Zync player that can play either FairPlay content or non DRM content. If no `license key url` and `FairPlay certificate` is provided, the player defaults to the `Zync FairPlay license and ceritficate`.
+Creates a Zync player that can play either FairPlay content or non DRM content. If no `license key url` and `FairPlay certificate` is provided, the player defaults to the `Zync FairPlay license and ceritficate`. The Zync player supports multiple audio tracks and subtitles.
 
 ### Example - FairPlay
 
@@ -107,9 +111,20 @@ show(zyncPlayer, sender: self)
 
 ## launchBrowse
 
-Launches the Browse Playlist experience
+Launches the Browse Playlist experience.
+The landing page has the following functionality: Global search and playlists.
+From the landing page you can tap to play a video or access the playlist details.
+The playlist details include all availble media in the playlist, i.e. movies and TV series. From the playlist, you can play the media or view the media details. On the TV series detail page, you can view seasons and episodes.
+Any media can be added to a watchlist from the media detail page. Once a media has been added to the watchlist, the watchlist will show up on the browse landing page.
 
 ```swift
 let browseViewController = Zync().launchBrowse()
 self.navigationController?.present(browseVC, animated: false, completion: nil)
 ```
+Browse Landing Page | Playlist Page | Media Details Page | Series Details Page | Search Page
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![Browse Landing Page](Documentation/Zync_Browse_Landing_Page.png) |  ![Playlist Page](Documentation/Zync_Playlist_Page.png) | ![Media Details Page](Documentation/Zync_Media_Details_Page.png) | ![Series Details Page](Documentation/Zync_Series_Details_Page.png) | ![Search Page](Documentation/Zync_Search_Page.png)
+
+Zync Video Player | 
+:-------------------------:|
+![Zync Video Player](Documentation/Zync_Video_Player.png) |
