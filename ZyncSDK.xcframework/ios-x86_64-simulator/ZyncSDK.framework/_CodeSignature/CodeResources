@@ -6,27 +6,27 @@
 	<dict>
 		<key>AccessibilityViewController.nib</key>
 		<data>
-		ltFwqTJOk0I3cXnf/8/EaSkTRLQ=
+		flCi9n6Xgh1oiw8sS8yOvkflsO8=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		BIpRo2vAVkSdXHmuaX6k2sM9PwY=
+		rm0jJ71rjREC1p7DtNTDg00pOlo=
 		</data>
 		<key>BrowseHeaderCollectionReusableView.nib</key>
 		<data>
-		tMCZBTReDMLtCn3Tn1033FQT72U=
+		BzMK+PY+cKGDFEaokeW1++Aqmew=
 		</data>
 		<key>BrowseSubCategoryViewController.nib</key>
 		<data>
-		f1XcGfvseXuacERa2B3nDHYPc3k=
+		kwXoVbCfBVs0zNBCu3/O+bQfazs=
 		</data>
 		<key>BrowseViewController.nib</key>
 		<data>
-		kBIagi/6gp1z7unSe1M43zeIUFs=
+		abwVIx9l4wp8i4h68JmKU2QVpXg=
 		</data>
 		<key>BrowseWatchlistCollectionReusableView.nib</key>
 		<data>
-		eWst4mYSQE8kgmXYwHMgXlY7OTk=
+		R1H0V947Wqjv2v2RtDx+t4CaJ8U=
 		</data>
 		<key>ChangingAppIcon.png</key>
 		<data>
@@ -78,19 +78,19 @@
 		</data>
 		<key>DescriptionTableViewCell.nib</key>
 		<data>
-		F3qzQputcP9icJT4xmfl4Ax0LlE=
+		FsQTMrWxu8BmgjI1JoWJ+AUO4ZM=
 		</data>
 		<key>EpisodeCollectionViewCell.nib</key>
 		<data>
-		DNF1Ev5UxOGMFS21T98Qzh7uy0A=
+		eaiw4jJb+yG+mElNybY9UIx1Vtw=
 		</data>
 		<key>EpisodesTableViewCell.nib</key>
 		<data>
-		aBjQgqZ61i2GStEi79M5RCSTOVA=
+		1JGwL8znq4IRXP2F9HuCzEQCmno=
 		</data>
 		<key>ErrorViewController.nib</key>
 		<data>
-		7EwVRqijDk921f6zMeXnmPgctzk=
+		hixgXleK2PJP9SPPYnd6FVJ4m5U=
 		</data>
 		<key>Headers/ZyncSDK-Swift.h</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KH14hRbVv0fVBGMJFPVKO0hWGQQ=
+		LXGB8Gta21XTvhKC+r051d2tsG0=
 		</data>
 		<key>ListPlaylistsViewController.nib</key>
 		<data>
-		tspUwy17sUXEHQ8Pw+N6nqlTDoU=
+		IVzKvwjG3rwOkP1VU2nkE6PChdU=
 		</data>
 		<key>Modules/ZyncSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Modules/ZyncSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g1PIG6i657rQK/CJy9I2hv3XHvU=
+		p0bB8NMqZiWZqzZpz/a4gCd4VSU=
 		</data>
 		<key>Modules/ZyncSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/ZyncSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		g1PIG6i657rQK/CJy9I2hv3XHvU=
+		p0bB8NMqZiWZqzZpz/a4gCd4VSU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>NextSeasonTableViewCell.nib</key>
 		<data>
-		D6MArTyDf+Eaw6h4f8508pBrRcQ=
+		YEpfXBkW5/A7hFYCKxzJBoTsMzc=
 		</data>
 		<key>Oops-Animation.json</key>
 		<data>
@@ -154,23 +154,23 @@
 		</data>
 		<key>PickerSeasonTableViewCell.nib</key>
 		<data>
-		DSXDzeaxXLQneeymbHiZfuWS3Vg=
+		jKOvBpbxVtWPKlO82WpwhLyZXCE=
 		</data>
 		<key>PlayerAccessibilityTableViewCell.nib</key>
 		<data>
-		ycPQGpr9CV5YqwO+voE565MedyI=
+		1vpQVjlorj+ljmVoSiJppVCkiAU=
 		</data>
 		<key>PlaylistGroupCollectionViewCell.nib</key>
 		<data>
-		5mxFVhAUmqvkWAYgEnpcnHbmPSs=
+		WfTZ+c7RHq4TJWkJDzLooKNI8j4=
 		</data>
 		<key>PlaylistHeaderCollectionReusableView.nib</key>
 		<data>
-		DHMxByy7STLV/5seytWNGW12X/g=
+		AQgqTBu1yhaZw5B56Xc9Z773IzI=
 		</data>
 		<key>PlaylistMovieCollectionViewCell.nib</key>
 		<data>
-		KQx8d6qzQowH01pZeY2SUs7mPCY=
+		I7H8jz3icbl6zG6Rk2BcBQ34IzI=
 		</data>
 		<key>ReplacingMultiple.png</key>
 		<data>
@@ -182,41 +182,41 @@
 		</data>
 		<key>SearchHeaderCollectionReusableView.nib</key>
 		<data>
-		Xaw0Ae0gYzJFOTFxYXrJ5Ye5yLo=
+		gpUCm1BQyJO95Nlu5PEmFhIVIos=
 		</data>
 		<key>SearchViewController.nib</key>
 		<data>
-		hLHVx+WQ1gK1eYwjZ3MqmwnXLU8=
+		q5j27X3zkpgIUBJTLwwj7R0OLpI=
 		</data>
 		<key>SeasonSelectTableViewCell.nib</key>
 		<data>
-		Q+6YNjgjWLpPHsHOGUj06IfWovo=
+		uBgN7gWEEs+NXEKcMuqMjcu/8sw=
 		</data>
 		<key>SeasonSelectViewController.nib</key>
 		<data>
-		gxxNaKAXBMhozq1Y5oHJEXphzME=
+		2W03pULS7euCk0G4kPS1gyyA7mw=
 		</data>
 		<key>SubPlaylistHeaderTableViewCell.nib</key>
 		<data>
-		PEjXbD1s2hdLsrnHza/Kc3q0XBY=
+		mWuo9F9qNKHmQfMhcqVHVI0VMsc=
 		</data>
 		<key>TitleTableViewCell.nib</key>
 		<data>
-		7q7HC957sALQBNyjhb+EQrioRq0=
+		wQkPa8boUrwj32ZIfAOEhdI6C9k=
 		</data>
 		<key>VideoDetailsViewController.nib</key>
 		<data>
-		x9pIIaoAhHMbHAsQ2wTJpIO1l4E=
+		I7PDPZ0IkePs3EaJzyKks8JX2jk=
 		</data>
 		<key>VideoPlayerViewController.nib</key>
 		<data>
-		sl2MrRplDUnoj1+MK0Q9GD5u49k=
+		iITGXGfBK6NhNuNBvk7FGuAjYlw=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ix7k519PFrnxBxzjlzA+ObuqHYQ=
+			rIdljtdysdDKSTGWxaOhlz+Ifdo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -228,42 +228,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iu1HOeTBerfNIm5TugOWSx+DpeNNIi96I/BBZ3Ti80A=
+			EfqgMjgubJJHWhI5aOOOJm3mpGxZNlWSyjJQ2vwtlVI=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OXWBbiHtBzVILcLnsk+lB1aHPtAmjPzZgTkqh8dILN0=
+			M14XyAcq81agV2TPNS/gg+EjCxRQIiMvNUhPFqvPv1U=
 			</data>
 		</dict>
 		<key>BrowseHeaderCollectionReusableView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			abCWFwkJxDmIPI56x7KUWFCYaWcHvr9qotT+vaaDUGQ=
+			9oBlQU0p7hE2tr6ySxdGXa0u9t2syM9Hcemu4LBodgg=
 			</data>
 		</dict>
 		<key>BrowseSubCategoryViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qq9uX5LpwojyuhtholQZRoFfNa8o7BJgzSRjcwqOFdI=
+			SahCjllG289j1c/3is+qnBi4HL2V9svG48MUHVGDGDw=
 			</data>
 		</dict>
 		<key>BrowseViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JeO4mnRjbZnyHgzzzz7woeOlz6La/L/hEuDMyITLPQY=
+			XiTxLEZ9bk9PpfpVRzBDXAsmemI2c3NKPbMbjI31ILo=
 			</data>
 		</dict>
 		<key>BrowseWatchlistCollectionReusableView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y95vC0nyk3VYQmif3ZQZDJPnzIzZGvgNAzOx2fcKkCg=
+			Ue9SNvBrTmLwq39agYb2TI3xfWYePN46AJQgfauX8Q0=
 			</data>
 		</dict>
 		<key>ChangingAppIcon.png</key>
@@ -354,28 +354,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J+JUHXWMvxhOPHtsBVOcLZWUC2kgPyhAFX0uJdL8MuA=
+			E8aUEcMx++TTutkpZKcI2KYpPNPd3acHV4RSOe36zXo=
 			</data>
 		</dict>
 		<key>EpisodeCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			igQ21pi7X+T9CJ8Npj8wI0ardmv7MnhEL8MzBhaWuFg=
+			7fwcstPWn0ip/DjqPaCvpsyv/Ft5QPJambsk2XWZKpE=
 			</data>
 		</dict>
 		<key>EpisodesTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KMt6AnEPl3eKCWhKJb2cMlwPIt2sESbr4m3DkYTELxU=
+			jvSJTlHhv2ZrK9uSexHWHHzPdjaejtPd2BpFZUnusoc=
 			</data>
 		</dict>
 		<key>ErrorViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xKB8K6/SA+BEzW+AVzWQWEKzvCefDxmmA1i5hmUwfN4=
+			0/LT+QdUaB/VaxdtJAOAr40CnnG7u9ogjSF34lf7oNE=
 			</data>
 		</dict>
 		<key>Headers/ZyncSDK-Swift.h</key>
@@ -403,7 +403,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7jaCIvgRYRQnqt5niuG5705GXv99rFv0fmt4rnmNwQA=
+			sDMov3QQh49KOlBnBP8lX10lRIwbu64wZ4BmG1JGGJc=
 			</data>
 		</dict>
 		<key>Modules/ZyncSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -424,7 +424,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5fL2mtYhHh0uSv5rD7qypXdox92UtCzAsIAgTshrB0A=
+			eICL1pVqiVbmpBUU10vCcViZiryWUy9FV2imb91sGxg=
 			</data>
 		</dict>
 		<key>Modules/ZyncSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -445,7 +445,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5fL2mtYhHh0uSv5rD7qypXdox92UtCzAsIAgTshrB0A=
+			eICL1pVqiVbmpBUU10vCcViZiryWUy9FV2imb91sGxg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -466,7 +466,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			06FaG849YjQtiX36qwMCXbQjldvHE87uyc8dJvlu0XM=
+			OEFefUX9YwuarP+4ETbCwiCGLJ6kF5CvHrCLyEGzkts=
 			</data>
 		</dict>
 		<key>Oops-Animation.json</key>
@@ -480,35 +480,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Loej2vuBaoAnuNR/Uus3o9GK/ay+Mx/axhw5vmFu7z0=
+			i+8jAj22+UujpHuIa8wt3xIWPBoMbJxK0jG6cjHh2hE=
 			</data>
 		</dict>
 		<key>PlayerAccessibilityTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BKvXz8Ce6trvkXk/ds5TOX5bdB6ATyuXab0BUjpSZZw=
+			pf7jU416jZG0/6cWNUR4s4esfIpMQcezrUXsd0GB5Wk=
 			</data>
 		</dict>
 		<key>PlaylistGroupCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hcfR5PbYNYn9FYDj5Hj8av6r5hWt4FJ7+j/8Bt+hiZ0=
+			refTpSDzvOsF4zWY5nOGkzz7WurLZhTSB5V549jZpU0=
 			</data>
 		</dict>
 		<key>PlaylistHeaderCollectionReusableView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rLyyoNIqrU7+S04ZrP//1bAivETqJJT2U7W5/FDrLPQ=
+			odYHKW8IVBdzPDhYVaSFfID/cV93pabzCXaobhXxqZM=
 			</data>
 		</dict>
 		<key>PlaylistMovieCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hnsbyq451xpUj+hBd3b9pEvob1eXFuN8Jg+6ZVL/DVE=
+			k4YYuqddnMQYmKOP0X+ht2gCDrcXC/V6k+3uQlp/MNA=
 			</data>
 		</dict>
 		<key>ReplacingMultiple.png</key>
@@ -529,63 +529,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kn3ARJx2pLw56GsjTKRlqaqyM0toA0PaOGTKMoEy4/k=
+			vA5wDs7VDcXmnAyHzr7aWGV90CeWdN6j0TPaxSeGDcM=
 			</data>
 		</dict>
 		<key>SearchViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0UA0PM0Ak6thCXu1E/zKSDvTkKtVd7h6tlu6nO3tXLE=
+			H7XmxqNZQAwgslJzZwZi1sCzzFuTuvfIUf+NhXntdXY=
 			</data>
 		</dict>
 		<key>SeasonSelectTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b3JlGqRO2gM13UAP6lBrlle5bWCIngF8ANlW0krAT2Y=
+			QfGXadUz9cJ95qP/BLKgKLeDzF/v1dj8fE3DKvX5k0E=
 			</data>
 		</dict>
 		<key>SeasonSelectViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gr6tY9uln2ayUnqJDfNtV2eaniFKENLuVuBoQTZa7Lw=
+			o5FZcKfwmBrBv5Qrl3DPxNx5Fso/50eNFs0ftzh1pPg=
 			</data>
 		</dict>
 		<key>SubPlaylistHeaderTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HmgTR9axxlXEkhVJOm78Txe5O/DZzFM7zrQEPfSpE/8=
+			uj9uKf6MAAU/1nQPDNCmQJZULI0fueokqqpt1WTLOHg=
 			</data>
 		</dict>
 		<key>TitleTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KtbFMB8mIsPwKGxXA1+RXksTOUnsrQfZheJ/ArZPlHU=
+			etjZXnXCQpErEDod58Zwn7ddRdDRcaYJsGgQ/T1L82E=
 			</data>
 		</dict>
 		<key>VideoDetailsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z77ak35CX+3sJWuk3vPe+dobt39zxtJOl3u7OAS+z3I=
+			3MSfPKvFX4wZFXqd2Uyebet1d+y9UBKcTAd0dCv86ow=
 			</data>
 		</dict>
 		<key>VideoPlayerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oDd9JPQb9hjx/ks9a1HQrjQHhx61+xr2EVNDig+O4rU=
+			ULmCKfkn3HL2ukgNER2M6Bmq9hCK7a2O4UF4GfFRmbk=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZaB1NCvpdHDCOPvKfFvJkAx7yY0BB1WGLlaBeZkFxeA=
+			CSFZN9QHI5Tb4wXbN7OF6tgN3Jpkg5+O9k2QSOmB0cQ=
 			</data>
 			<key>optional</key>
 			<true/>
