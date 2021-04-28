@@ -16,17 +16,26 @@ API Documentation can be found here: https://api.zync.com/
 
 ## **Step 1:** Install ZyncSDK
 
-1. Drag-and-drop the ZyncSDK.xcframework folder into your project.
-1. Change `Libraries and Embedded content` at `ZyncSDK.xcframework` in Xcode `General` tab -> `Frameworks` -> `Libraries and Embedded content` change it to `Embed & Sign`.
+### 1. Install dependencies
+The ZyncSDK relies on the following dependencies which must be added and embedded into your app. The dependencies can be added through a Cocoapod install.
+
+1. If you don't have Cocoapods setup already, you need to initialize pods with `pod init`.
+2. In your Podfile, add the dependencies:
+   ```
+   pod 'SDWebImage'
+   pod 'lottie-ios'
+   ```
+3. Run `pod install` and open the `.xcworkspace` file that is created in Xcode.
+
+### 2. Install the ZyncSDK framework
+
+1. Copy the `ZyncSDK.xcframework` folder into your project's root folder.
+2. Open your project's `.xcworkspace` file in Xcode
+3. Right click on the Frameworks folder and select _Add files to "ProjectName"_
+4. Check "Copy items if needed" and add the `ZyncSDK.xcframework` folder
+5. Add the `ZyncSDK.xcframework` to `Frameworks, Libraries and Embedded content` at in Xcode `General` tab -> `Frameworks` -> `Frameworks, Libraries and Embedded content` and set the `Embed` setting to `Embed & Sign`.
 
 ![Alt Text](Documentation/Zync_SDK_Install.png)
-
-The ZyncSDK relies on the following dependencies which must be added and embedded into your app. The dependencies can be added through a cocaopod install:
-
-```
-pod 'SDWebImage'
-pod 'lottie-ios'
-```
 
 ## **Step 2:** Initializing the Zync SDK
 
